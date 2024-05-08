@@ -21,7 +21,7 @@ struct TreeCell: View {
 
             VStack(alignment: .leading) {
                 Text(tree.name)
-                Text(tree.commonName)
+                Text(tree.family)
                     .foregroundStyle(.secondary)
                     .font(.caption)
             }

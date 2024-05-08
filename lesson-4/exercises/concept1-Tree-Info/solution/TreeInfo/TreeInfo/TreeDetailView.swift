@@ -28,10 +28,8 @@ struct TreeDetailView: View {
             }
 
             Section("Details") {
-                LabeledContent("Common Name", value: tree.commonName)
-                LabeledContent("Description") {
-                    Text(tree.description)
-                }
+                LabeledContent("Family", value: tree.family)
+                Text(tree.description)
             }
         }
         .navigationTitle(tree.name)
