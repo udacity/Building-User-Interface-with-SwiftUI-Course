@@ -12,9 +12,9 @@ struct SaveButton: View {
 
     var body: some View {
         Button(action: {
-            withAnimation {
-                isSaved.toggle()
-            }
+
+            isSaved.toggle()
+
         }, label: {
             Image(systemName: isSaved ? "star.fill" : "star")
                 .imageScale(.large)
